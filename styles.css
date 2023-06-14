@@ -239,6 +239,62 @@ section {
 
 /* services */
 
+/* blogs */
+.blogs .box-container .box .image {
+  height: 30rem;
+  overflow: hidden;
+}
+
+.blogs .box-container .box .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blogs .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 4rem;
+}
+
+.blogs .box-container .box {
+  background-color: #f5f5f8;
+}
+
+.blogs .box-container .box .content {
+  padding: 2.5rem;
+}
+
+.blogs .box-container .box .content h2 {
+  font-size: 2rem;
+  color: #16161d;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.blogs .box-container .box .content p {
+  color: #808080;
+  margin-bottom: 2rem;
+  font-size: 1.7rem;
+}
+
+.blogs .box-container .box .content span {
+  font-size: 1.5rem;
+  color: #808080;
+  margin-right: 2rem;
+}
+
+.blogs .box-container .box .content span i {
+  font-size: 1.7rem;
+  vertical-align: -0.3rem;
+}
+
+.blogs .box-container .box .content span:hover {
+  color: #ff0000;
+  cursor: pointer;
+}
+/* blogs */
+
 /* works */
 .works .box-container .box .image {
   height: 30rem;
@@ -277,6 +333,58 @@ section {
 }
 
 /* works */
+
+/* clients */
+.clients .box-container .box .image {
+  width: 12rem;
+  height: 12rem;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.clients .box-container .box .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.clients {
+  background: var(--light-bg);
+}
+
+.clients .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 5rem;
+}
+
+.clients .box-container .box {
+  background: var(--white);
+  text-align: center;
+  border-radius: 1rem;
+  padding: 3rem;
+}
+
+.clients .box-container .box h3 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.clients .box-container .box p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: var(--light-color);
+}
+
+.clients .box-container .box:hover {
+  background: rgb(62, 62, 62);
+}
+
+.clients .box-container .box:hover h3,
+.clients .box-container .box:hover p {
+  color: var(--white);
+}
+/* clients */
 
 /* contact */
 .contact {
